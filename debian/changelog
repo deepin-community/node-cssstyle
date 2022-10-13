@@ -1,0 +1,77 @@
+node-cssstyle (2.3.0-1) unstable; urgency=medium
+
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * New upstream version 2.3.0
+  * Build with babel7
+  * Update test (switch to jest)
+  * rop lintian overrides
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 18:43:19 +0100
+
+node-cssstyle (0.2.14-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update renamed lintian tag names in lintian overrides.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 09:33:41 +0100
+
+node-cssstyle (0.2.14-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set field Upstream-Contact in debian/copyright.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 22:31:57 +0100
+
+node-cssstyle (0.2.14-3) unstable; urgency=medium
+
+  * Replace Martin Borgert by myself in uploaders list. Thanks for your work!
+    (Closes: #892604)
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+  * Add missing debian/watch
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:42:41 +0200
+
+node-cssstyle (0.2.14-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ W. Martin Borgert ]
+  * Add missing dependency on node-cssom (Closes: #742347)
+
+  [ Xavier Guimard ]
+  * Add minimal test based on pkg-js-tools
+  * Play upstream test
+  * Remove old XS-Testsuite header
+  * Remove old debian/tests/control
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Change priority to optional
+  * Change section to javascript
+  * Update CVS fields to salsa
+  * Update debian/copyright
+  * Hide false positive lintian warning
+  * Add Testsuite: autopkgtest-pkg-nodejs
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 01 Feb 2019 13:41:28 +0100
+
+node-cssstyle (0.2.14-1) unstable; urgency=low
+
+  * Initial release (Closes: #761436)
+
+ -- W. Martin Borgert <debacle@debian.org>  Sat, 20 Sep 2014 19:40:03 +0000

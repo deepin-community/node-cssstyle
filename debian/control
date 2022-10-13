@@ -1,0 +1,25 @@
+Source: node-cssstyle
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Section: javascript
+Priority: optional
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , jest <!nocheck>
+ , node-babel7
+ , node-babylon
+ , node-cssom
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-cssstyle
+Vcs-Git: https://salsa.debian.org/js-team/node-cssstyle.git
+Homepage: https://github.com/chad3814/CSSStyleDeclaration
+Rules-Requires-Root: no
+
+Package: node-cssstyle
+Architecture: all
+Depends: ${misc:Depends}
+ , node-cssom
+Description: CSSStyleDeclaration Object Model implementation
+ CSSStyleDeclaration is a work-a-like to the CSSStyleDeclaration
+ class in Nikita Vasilyev's CSSOM.
