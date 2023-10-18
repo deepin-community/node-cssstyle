@@ -2,4 +2,4 @@ version=4
 opts=\
 dversionmangle=auto,\
 filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-cssstyle-$1/ \
- https://github.com/jsdom/cssstyle/releases .*/archive/.*/v?([\d\.]+).tar.gz
+ https://github.com/jsdom/cssstyle/tags .*/archive/.*/v?([\d\.]+).tar.gz
