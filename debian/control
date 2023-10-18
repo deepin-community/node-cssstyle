@@ -10,7 +10,7 @@ Build-Depends: debhelper-compat (= 13)
  , node-babel7
  , node-babylon
  , node-cssom
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-cssstyle
 Vcs-Git: https://salsa.debian.org/js-team/node-cssstyle.git
 Homepage: https://github.com/chad3814/CSSStyleDeclaration

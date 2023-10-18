@@ -1,3 +1,18 @@
+node-cssstyle (2.3.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Fix debian/watch
+
+ -- Yadd <yadd@debian.org>  Mon, 03 Oct 2022 09:21:33 +0200
+
+node-cssstyle (2.3.0-2) unstable; urgency=medium
+
+  [ Chris Lamb ]
+  * Make the build reproducible (Closes: #999848)
+
+ -- Yadd <yadd@debian.org>  Wed, 17 Nov 2021 21:42:54 +0100
+
 node-cssstyle (2.3.0-1) unstable; urgency=medium
 
   * Update standards version to 4.6.0, no changes needed.
